@@ -10,3 +10,4 @@
 * выполнить миграции `python manage.py migrate`
 * загрузить пользователя `python manage.py loaddata user`
 * открыть браузер c url `/api/v1/token/` авторизоваться используя username: "user" и password: "123", чтобы получить access и refresh токены
+* доступны методы получения (`/api/v1/token/`), проверки (`/api/v1/verify/`) и обновления токена доступа (`/api/v1/refresh/`)
